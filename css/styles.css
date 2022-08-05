@@ -21,6 +21,8 @@ body {
   background-color: var(--accent-bgc-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .visually-hidden {
   position: absolute;
@@ -50,7 +52,7 @@ body {
   color: var(--logo-accent-color);
 
   font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -64,7 +66,7 @@ body {
   color: var(--accent-bgc-color);
 
   font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -79,7 +81,6 @@ body {
   color: var(--title-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -89,12 +90,15 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
+.site-nav .current:visited {
+  color: var(--accent-color);
+}
 /*con-nav*/
 .con-nav .text-link {
   color: var(--primary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -138,28 +142,25 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.accent-text:hover,
-.accent-text:focus {
+.list .accent-text:hover,
+.list .accent-text:focus {
   color: var(--accent-bgc-color);
   background-color: var(--accent-color);
-
   cursor: pointer;
+}
+.push {
+  color: var(--accent-bgc-color);
+  background-color: var(--accent-color);
 }
 /*benefits*/
 .benefits-title {
   color: var(--title-text-color);
-
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /*section info*/
 .section-title {
@@ -168,7 +169,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .section-text {
   color: var(--title-text-color);
@@ -176,12 +176,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 .profession {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 /*footer*/
 .footer-con .footer-link {
@@ -199,20 +197,17 @@ body {
 .footer-con {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /*work example*/
-.project {
+.project-name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.category {
+.project-category {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
